@@ -261,7 +261,7 @@ section .title::after{
 .skills .title::after,
 .extra .title::after{ 
     background: #111;
-    content: "what i provide";
+    content: "where I worked";
 }
 .skills .skills-content .card{
     width: calc(33% - 20px);
@@ -297,7 +297,7 @@ section .title::after{
 
 /* projects section styling  */
 .projects .title::after{
-    content:"what i know";
+    content:"what i am good at";
 }
 .projects .projects-content .column{
     width: calc(50% - 30px);
@@ -354,25 +354,28 @@ section .title::after{
     top:0;
     background: crimson;
 }
-.projects-content .right .html::before{
-    width: 90%;
-}
-.projects-content .right .css::before{
-    width: 60%;
-}
 .projects-content .right .python::before{
-    width: 90%;
+    width: 70%;
 }
 .projects-content .right .java::before{
-    width: 50%;
+    width: 40%;
 }
 .projects-content .right .cpp::before{
+    width: 40%;
+}
+.projects-content .right .html::before{
+    width: 50%;
+}
+.projects-content .right .scheme::before{
+    width: 50%;
+}
+.projects-content .right .latex::before{
     width: 60%;
 }
 
 /* extra section styling  */
 .extra .title::after{
-    content: "what i do";
+    content: "what i have done";
 }
 .extra .carousel .card{
     background: #222;
@@ -441,7 +444,7 @@ section .title::after{
     content: "get in touch";
 }
 .contact .contact-content .column{
-    width: calc(50% - 30px);
+    width: calc(50% - 120px);
 }
 .contact .contact-content .text{
     font-size: 20px;
@@ -476,7 +479,7 @@ section .title::after{
 .contact .contact-content .info .sub-title{
     color: #333;
 }
-
+/*
 .contact .right form .fields{
     display: flex;
 }
@@ -532,7 +535,7 @@ section .title::after{
     color: crimson;
     background: none;
 }
-
+*/
 /* footer section styling  */
 footer{
     background: #111;
