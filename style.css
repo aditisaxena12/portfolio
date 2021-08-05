@@ -14,14 +14,18 @@ html{
     margin: auto;
 }
 /* navbar styling */
-.navbar{
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-    padding: 30px 0;
-    /* background: crimson;  */
-    font-family: 'Ubuntu', sans-serif;
-    transition: all 0.3s ease;
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  backdrop-filter: blur(8px);
+  /* background: blue; */
+  padding: 30px 0;
+  /* background: crimson; */
+  font-family: "Ubuntu", sans-serif;
+  transition: all 0.3s ease;
+
 }
 .navbar.sticky{
     padding: 15px 0;
